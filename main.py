@@ -1,5 +1,3 @@
-import math
-
 
 #den stands for denominator and nom for nominator
 def fraction(number):
