@@ -49,8 +49,11 @@ def formatFraction(T,N):
 
 
 
-def keyboard():
-    n = input("enter a number\n")
-    n = float(n)
-    fraction(n)
-keyboard()
+while True:
+    try:
+        n = input("enter a number\n")
+        n = float(n)
+        break
+    except:
+        print("wrong number")
+fraction(n)
